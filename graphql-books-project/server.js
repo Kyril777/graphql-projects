@@ -11,20 +11,21 @@ const {
 const app = express();
 
 const authors = [
-	{ id: 1, name: 'J. K. Rowling' },
-	{ id: 2, name: 'J. R. R. Tolkien' },
-	{ id: 3, name: 'Brent Weeks' }
+	{ id: 1, name: 'Ernest Hemingway' },
+	{ id: 2, name: 'F. Scott Fitzgerald' },
+	{ id: 3, name: 'William Faulkner' }
 ]
 
 const books = [
-	{ id: 1, name: 'Harry Potter and the Chamber of Secrets', authorId: 1 },
-	{ id: 2, name: 'Harry Potter and the Prisoner of Azkaban', authorId: 1 },
-	{ id: 3, name: 'Harry Potter and the Goblet of Fire', authorId: 1 },
-	{ id: 4, name: 'The Fellowship of the Ring', authorId: 2 },
-	{ id: 5, name: 'The Two Towers', authorId: 2 },
-	{ id: 6, name: 'The Return of the King', authorId: 2 },
-	{ id: 7, name: 'The Way of Shadows', authorId: 3 },
-	{ id: 8, name: 'Beyond the Shadows', authorId: 3 }
+	{ id: 1, name: 'The Sun Also Rises', authorId: 1 },
+	{ id: 2, name: 'A Farewell to Arms', authorId: 1 },
+	{ id: 3, name: 'For Whom the Bell Tolls', authorId: 1 },
+	{ id: 4, name: 'The Great Gatsby', authorId: 2 },
+	{ id: 5, name: 'This Side of Paradise', authorId: 2 },
+	{ id: 6, name: 'Tender is the Night', authorId: 2 },
+	{ id: 7, name: 'The Sound and the Fury', authorId: 3 },
+	{ id: 8, name: 'Absalom, Absalom', authorId: 3 },
+	{ id: 9, name: 'Light in August', authorId: 3 }
 ]
 
 const BookType = new GraphQLObjectType({
