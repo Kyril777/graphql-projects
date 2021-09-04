@@ -16,6 +16,14 @@ const authors = [
 	{ id: 3, name: 'William Faulkner' }
 ]
 
+/*
+const authors = [
+	{ id: 1, name: '' },
+	{ id: 2, name: '' },
+	{ id: 3, name: '' }
+]
+*/
+
 const books = [
 	{ id: 1, name: 'The Sun Also Rises', authorId: 1 },
 	{ id: 2, name: 'A Farewell to Arms', authorId: 1 },
@@ -27,6 +35,20 @@ const books = [
 	{ id: 8, name: 'Absalom, Absalom', authorId: 3 },
 	{ id: 9, name: 'Light in August', authorId: 3 }
 ]
+
+/*
+const books = [
+	{ id: 1, name: '', authorId: 1 },
+	{ id: 2, name: '', authorId: 1 },
+	{ id: 3, name: '', authorId: 1 },
+	{ id: 4, name: '', authorId: 2 },
+	{ id: 5, name: '', authorId: 2 },
+	{ id: 6, name: '', authorId: 2 },
+	{ id: 7, name: '', authorId: 3 },
+	{ id: 8, name: '', authorId: 3 },
+	{ id: 9, name: '', authorId: 3 }
+]
+*/
 
 const BookType = new GraphQLObjectType({
 	name: 'Book',
